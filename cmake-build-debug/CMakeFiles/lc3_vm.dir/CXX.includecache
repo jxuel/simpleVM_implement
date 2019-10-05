@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/apple/CLionProjects/lc3_vm/main.cpp
+stdio.h
+-
+stdlib.h
+-
+stdint.h
+-
+string.h
+-
+signal.h
+-
+unistd.h
+-
+fcntl.h
+-
+sys/time.h
+-
+sys/types.h
+-
+sys/termios.h
+-
+sys/mman.h
+-
+
